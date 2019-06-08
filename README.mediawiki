@@ -28,3 +28,14 @@ For example:
 
 <pre>require_once("$IP/extensions/LightGallery/LightGallery.php");
 $lgLightGalleryOptions = '{thumbnail: true, mode: "lg-fade", getCaptionFromTitleOrAlt: true, subHtmlSelectorRelative: true, animateThumb: false, showThumbByDefault: false }';</pre>
+
+== Usage ==
+To initialize the gallery, use the class <code>.LightGallery</code> on your <code>&lt;gallery&gt;</code>.
+
+<pre>
+<gallery class="LightGallery">
+file:images1.png|desc
+file:images2.png
+file:images3.png
+</gallery>
+</pre>
