@@ -30,7 +30,7 @@ For example:
 $lgLightGalleryOptions = '{thumbnail: true, mode: "lg-fade", getCaptionFromTitleOrAlt: true, subHtmlSelectorRelative: true, animateThumb: false, showThumbByDefault: false }';</pre>
 
 == Usage ==
-To initialize the gallery, use the class <code>.LightGallery</code> on your <code>&lt;gallery&gt;</code>.
+To initialize the gallery, use the class <code>.LightGallery</code> on your <code><gallery></code>.
 
 <pre>
 <gallery class="LightGallery">
