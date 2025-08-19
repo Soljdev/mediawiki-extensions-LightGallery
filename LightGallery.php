@@ -28,7 +28,7 @@ $wgExtensionCredits['media'][] = array(
     'url'         => 'http://www.mediawiki.org/wiki/Extension:LightGallery',
     'author'      => '[https://github.com/Soljdev Nikola Filippov]',
     'description' => 'A simple and fancy FancyBox alternative',
-    'version'     => '0.0.2'
+    'version'     => '0.0.4'
 );
 
 $wgResourceModules['ext.LightGallery'] = array(

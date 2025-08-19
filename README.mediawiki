@@ -2,10 +2,12 @@
 
 The '''LightGallery''' extension displays thumbnailed images in modal window that floats overtop of web page. This can create a more user friendly environment, where the user doesn't leave the page every time they click a thumbnail.
 
-[https://ru.ironharvest.ru/Якуб_Розальски Example]
+[https://en.ironharvest.wiki/Jakub_Rozalski Example]
 
-== Version 0.0.2 ==
-* Provides ability to customize [https://sachinchoolur.github.io/lightGallery/docs/ LightGallery options]
+== Version 0.0.4 ==
+* 0.0.4 Security Fixed
+* 0.0.3 Updated lib v1.10
+* 0.0.2 Provides ability to customize [https://sachinchoolur.github.io/lightGallery/docs/ LightGallery options]
 
 == Licenses ==
 This Extension is released under the [http://www.gnu.org/licenses/gpl.html GPLv3] license.
