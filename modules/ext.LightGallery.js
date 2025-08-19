@@ -53,11 +53,23 @@
 
 		imgTitle = (imgTitle !== "")?imgTitle + " - ":"";
 
-		$(this).attr({"data-src": newImgSrc, "data-sub-html": "." + imgCaption.attr("class")})
-
+		//set the title for the light gallery
+		$(this).attr({
+			"data-src": newImgSrc,
+			"data-sub-html": escapeHtml(imgCaption.attr("class") || "")
+		});
 		// endregion
 
     });
+
+	function escapeHtml(text) {
+		return text
+			.replace(/&/g, "&amp;")
+			.replace(/</g, "&lt;")
+			.replace(/>/g, "&gt;")
+			.replace(/"/g, "&quot;")
+			.replace(/'/g, "&#039;");
+	}
 
     //now set LightGallery on all thumbnail links
     //lgLightGalleryOptions is set in LocalSettings.php
